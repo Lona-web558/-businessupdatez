@@ -1,0 +1,7 @@
+{
+  "jseAlsi": { "label": "JSE ALSI", "value": "84,210", "change": "0.6%", "direction": "up" },
+  "repoRate": { "label": "REPO RATE", "value": "8.25%", "change": "", "direction": "flat" },
+  "cpi": { "label": "CPI (YoY)", "value": "4.9%", "change": "", "direction": "flat" },
+  "brent": { "label": "BRENT CRUDE", "value": "$82.10", "change": "0.4%", "direction": "up" },
+  "updatedAt": null
+}
