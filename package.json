@@ -1,0 +1,19 @@
+{
+  "name": "business-news-hub",
+  "version": "1.0.0",
+  "description": "Business News Hub — South African finance & business news, Express + JSON file store",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
