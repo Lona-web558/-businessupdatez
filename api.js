@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const db = require("../db");
+const db = require("./db");
 
 // Simple shared-secret admin check.
 // Set ADMIN_KEY as an environment variable on Render; falls back to a
