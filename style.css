@@ -1,0 +1,191 @@
+:root {
+  --bg: #0b0e11;
+  --bg-panel: #12161b;
+  --border: #232830;
+  --gold: #d4af37;
+  --cyan: #35e0d0;
+  --text: #e6e8eb;
+  --text-dim: #8b929c;
+  --up: #35e0a0;
+  --down: #ff5c5c;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Space Grotesk', sans-serif;
+  min-height: 100vh;
+}
+
+.mono { font-family: 'JetBrains Mono', monospace; }
+
+/* Ticker bar */
+.ticker-bar {
+  background: var(--bg-panel);
+  border-bottom: 1px solid var(--border);
+  padding: 8px 0;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ticker-track {
+  display: inline-block;
+  padding-left: 100%;
+  animation: ticker-scroll 32s linear infinite;
+}
+@keyframes ticker-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .ticker-track { animation: none; padding-left: 0; }
+  .ticker-bar { overflow-x: auto; }
+}
+.ticker-bar .item { margin: 0 1.25rem; color: var(--text-dim); }
+.ticker-bar .item .val { color: var(--text); font-weight: 600; }
+.ticker-bar .up { color: var(--up); }
+.ticker-bar .down { color: var(--down); }
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--gold) !important;
+}
+.navbar-custom {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+.nav-link {
+  color: var(--text-dim) !important;
+}
+.nav-link:hover, .nav-link.active {
+  color: var(--cyan) !important;
+}
+
+/* Category filter pills */
+.category-pills .btn {
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  background: transparent;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  margin: 0 6px 8px 0;
+}
+.category-pills .btn.active,
+.category-pills .btn:hover {
+  border-color: var(--cyan);
+  color: var(--cyan);
+}
+
+/* Article cards */
+.article-card {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.25rem;
+  height: 100%;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.article-card:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+.article-card .category-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--cyan);
+}
+.article-card h3 {
+  font-size: 1.15rem;
+  margin: 0.5rem 0;
+  color: var(--text);
+}
+.article-card p.summary {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+.article-card .meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  color: var(--text-dim);
+  border-top: 1px solid var(--border);
+  padding-top: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.article-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+.lead-link {
+  color: var(--text);
+  text-decoration: none;
+}
+.lead-link:hover {
+  color: var(--gold);
+}
+
+.article-body p {
+  color: var(--text);
+  line-height: 1.7;
+  margin-bottom: 1.1rem;
+}
+
+/* Featured / lead story */
+.lead-story {
+  background: linear-gradient(180deg, rgba(212,175,55,0.06), transparent);
+  border: 1px solid var(--gold);
+  border-radius: 8px;
+  padding: 2rem;
+}
+.lead-story .category-tag { color: var(--gold); }
+
+/* Footer */
+.footer-custom {
+  border-top: 1px solid var(--border);
+  color: var(--text-dim);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  padding: 1.5rem 0;
+  margin-top: 3rem;
+}
+
+/* Admin */
+.admin-panel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.5rem;
+}
+.form-control, .form-select {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+.form-control:focus, .form-select:focus {
+  background: var(--bg);
+  color: var(--text);
+  border-color: var(--cyan);
+  box-shadow: none;
+}
+.btn-gold {
+  background: var(--gold);
+  border: none;
+  color: #0b0e11;
+  font-weight: 600;
+}
+.btn-gold:hover { background: #e6c65c; color: #0b0e11; }
+
+.admin-row {
+  border-bottom: 1px solid var(--border);
+  padding: 0.6rem 0;
+}
