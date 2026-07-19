@@ -14,7 +14,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const DATA_FILE = path.join(__dirname, "data", "market.json");
+const DATA_FILE = path.join(__dirname, "market.json");
 
 const DEFAULTS = {
   jseAlsi: { label: "JSE ALSI", value: "84,210", change: "0.6%", direction: "up" },
