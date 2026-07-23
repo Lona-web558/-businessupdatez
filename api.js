@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const db = require("./db1");
+const db = require("./db");
 const market = require("./market");
 
 // Simple shared-secret admin check.
