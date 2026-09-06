@@ -24,6 +24,9 @@
 },
 
 
+  
+
+
 {
   "id": "34",
   "title": "South African Business & Financial Update | 24 July 2026",
@@ -413,7 +416,20 @@
   "author": "Business News Hub Desk",
   "date": "2026-09-05",
   "featured": true
-}  
+}, 
+
+
+{
+  "id": "69",
+  "title": "South African Financial & Economic Overview | 6 September 2026",
+  "category": "Economy",
+  "summary": "The rand holds around R15.99/USD as Brent crude climbs to $96.28 a barrel ahead of Tuesday's Q2 GDP release, with Nedbank forecasting a 0.2% contraction; Eskom proposes an 8.8% tariff hike from April 2027, unions push back on fuel-price increases, and a busy earnings and ex-dividend calendar looms with FirstRand, Sanlam, Standard Bank and others reporting.",
+  "body": "South African markets are heading into a busy week, with the rand trading around R15.99 to the US dollar, R21.58 to the pound and R18.57 to the euro. Commodity markets remain a key factor for the local economy, with gold trading at about $4,430.03 an ounce, while Brent crude has climbed to $96.28 a barrel as global supply concerns and geopolitical tensions continue to put pressure on oil prices.\n\nAttention this week will turn to South Africa\u2019s second-quarter GDP figures, which Statistics South Africa is scheduled to release on Tuesday, 8 September. Economists, including those at Nedbank, are expecting the economy to contract by around 0.2% quarter-on-quarter. The anticipated decline reflects weakness across several important sectors, particularly mining, manufacturing and domestic trade.\n\nInvestment activity also remains under pressure. Gross Fixed Capital Formation is expected to contract by roughly 0.7% for a second consecutive quarter, highlighting cautious business sentiment as companies contend with weaker demand, rising costs and increasing uncertainty around global trade.\n\nOn the policy front, Eskom has proposed an 8.8% electricity tariff increase from April 2027 as part of its ongoing multi-year price determination process. Any increase of this size is likely to add further pressure to households and businesses already dealing with elevated operating costs.\n\nFuel prices have also become a major concern. Substantial increases took effect on 2 September, with petrol rising by R1.34 a litre and diesel increasing by between R2.94 and R3.15 a litre. The sharp increases have been driven largely by higher international oil prices and adjustments to the slate levy. In response, labour federations including COSATU and the Public Servants Association have called on National Treasury to reinstate temporary relief on the fuel levy to ease the impact on consumers and businesses.\n\nMeanwhile, debate continues around the government's proposed R100 billion Transformation Fund. Economists and business stakeholders are considering how the proposed structure could affect the existing Broad-Based Black Economic Empowerment framework, including whether greater centralisation of funding could eventually change or replace some of the mechanisms currently used to support transformation.\n\nCorporate activity on the JSE is also set to pick up, with a busy earnings calendar ahead. FirstRand, Sanlam, OUTsurance Group, Sun International, AVI, Old Mutual, Super Group, Growthpoint Properties, Hyprop Investments and WBHO are among the companies scheduled to report results.\n\nInvestors will also be watching dividend-related activity closely. Several major JSE-listed companies, including Standard Bank, Gold Fields, DRDGOLD, The Foschini Group, Spur Corporation, AdvTech, Italtile and Grindrod, are scheduled to trade ex-dividend on Wednesday, 9 September.\n\nOverall, the week ahead is likely to provide an important snapshot of the health of the South African economy. Weak expected GDP growth, higher fuel and electricity costs, subdued investment and ongoing global commodity and trade pressures will remain key issues for markets, policymakers, businesses and consumers alike.",
+  "author": "Business News Hub Desk",
+  "date": "2026-09-06",
+  "featured": true
+}
+  
   
   
 ]
